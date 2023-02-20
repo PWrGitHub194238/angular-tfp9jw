@@ -19,14 +19,14 @@ import {
       <app-color-picker formControlName="hex"></app-color-picker>
       VAL: {{ form1.value | json }}
     </div>
-    <!--
+
     <app-wrapper>
       <div [formGroup]="form2">
         <app-color-picker formControlName="hex"></app-color-picker>
         VAL: {{ form2.value | json }}
       </div>
     </app-wrapper>
-    -->
+
   `,
 })
 export class App {
